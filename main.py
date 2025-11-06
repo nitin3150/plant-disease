@@ -229,7 +229,7 @@ def main():
         # Model path
         model_path = st.text_input(
             "Model Path",
-            value="checkpoints/best_model_fast.pth",
+            value="checkpoints/model.pth",
             help="Path to trained model checkpoint"
         )
         
